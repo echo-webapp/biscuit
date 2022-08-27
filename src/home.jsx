@@ -10,7 +10,7 @@ import Price from "./components/Price";
 import Challenges from "./components/challenges";
 
 const Home = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const location = useLocation();
   const [selected, setselected] = useState("feed");
