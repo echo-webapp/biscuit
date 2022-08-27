@@ -118,9 +118,9 @@ const Home = () => {
         <div className="text-2xl text-center text-color font-bold w-full">
           {header}
         </div>
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <SearchBar />
-        </div>
+        </div> */}
         <div className="mt-12">
           <Navbar selected={selected} setselected={setselected} />
         </div>
