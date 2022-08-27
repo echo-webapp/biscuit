@@ -1,15 +1,14 @@
-
 @font-face {
-  font-family: 'Bebas';
-  src: local('Bebas'), url(../fonts/Bebas-Regular.ttf) format('truetype');
+  font-family: "Bebas";
+  src: local("Bebas"), url(../fonts/Bebas-Regular.ttf) format("truetype");
 }
 
 .share {
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   z-index: 999;
   text-align: center;
@@ -36,24 +35,21 @@
 .twelve {
   position: absolute;
   background-color: #fff;
-  color: #fff;
-  border-radius: 25px;
   text-align: center;
-  line-height: 49px;
+  /* line-height: 49px; */
   font-size: 1.5em;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, .2);
-  box-shadow: 0px 3px 9px rgba(0, 0, 0, .2);
-  -webkit-transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
+  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.2);
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  font-size: 15px;
 }
 
 .one:hover,
@@ -69,7 +65,7 @@
 .eleven:hover,
 .twelve:hover {
   cursor: pointer;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   -webkit-transform: translate(-50%, -65%);
   transform: translate(-50%, -65%);
 }
@@ -89,71 +85,31 @@
   display: none;
 }
 
-.one {
-  background-color: #e01e5a;
-}
-
-.two {
-  background-color: #36C5F1;
-}
-
-.three {
-  background-color: #EBB22F;
-}
-
-.four {
-  background-color: #30B57E;
-}
-
-.five {
-  background-color: #4A154B;
-}
-
-.six {
-  background-color: #000000;
-}
-
 .seven {
-  background-color: #e01e5a;
+  border: #546fff 2px solid;
 }
 
-.eight {
-  background-color: #36C5F1;
-}
-
-.nine {
-  background-color: #EBB22F;
-}
-
-.ten {
-  background-color: #30B57E;
-}
-
-.eleven {
-  background-color: #4A154B;
-}
-
-.twelve {
-  background-color: #000000;
+.bot-cards {
+  color: #546fff;
+  border-radius: 12px;
+  font-size: 16px;
 }
 
 .intro-title {
-  /* width: 600px; */
   width: 100%;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 50%;
   z-index: 999;
   text-align: center;
   overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 45px;
-  font-weight: 600;
-  font-family:  Bebas;
-  text-transform: uppercase;
+  transform: translate(-50%, 0%);
+  color: #141522;
+  font-weight: 400;
+  font-size: 24px;
 }
-.intro-greet{
+.intro-greet {
   width: 100%;
   position: absolute;
   top: 20%;
@@ -163,23 +119,18 @@
   overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 140px;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-family:  Bebas;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.click-me{
+.click-me {
   position: absolute;
-  top: 70%;
+  bottom: 16px;
+  width: 100%;
   left: 50%;
   z-index: 999;
   text-align: center;
-  overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 25px;
+  transform: translate(-50%, 0%);
   font-weight: 600;
-  text-transform: uppercase;
-  font-family:  Bebas;
 }

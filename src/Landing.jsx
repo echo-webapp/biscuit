@@ -28,7 +28,7 @@ function Landing() {
           {
             top: "20%",
             left: "50%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -37,7 +37,7 @@ function Landing() {
           {
             top: "30%",
             left: "40%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -46,7 +46,7 @@ function Landing() {
           {
             top: "40%",
             left: "30%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -55,7 +55,7 @@ function Landing() {
           {
             top: "50%",
             left: "25%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -64,7 +64,7 @@ function Landing() {
           {
             top: "60%",
             left: "30%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -73,7 +73,7 @@ function Landing() {
           {
             top: "70%",
             left: "40%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -83,7 +83,7 @@ function Landing() {
           {
             top: "80%",
             left: "50%",
-            padding: "3px 15px",
+            padding: "16px 24px",
           },
           500
         );
@@ -92,7 +92,7 @@ function Landing() {
           {
             top: "70%",
             left: "60%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -101,7 +101,7 @@ function Landing() {
           {
             top: "60%",
             left: "70%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -110,7 +110,7 @@ function Landing() {
           {
             top: "50%",
             left: "75%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -119,7 +119,7 @@ function Landing() {
           {
             top: "40%",
             left: "70%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -128,7 +128,7 @@ function Landing() {
           {
             top: "30%",
             left: "60%",
-            padding: "3px 15px",
+            padding: "8px 24px",
           },
           500
         );
@@ -199,112 +199,139 @@ function Landing() {
           height={250}
           width={250}
         />
+        <h2 className="click-me text-base color-primary hover:cursor-pointer">
+          Click here to know more
+        </h2>
       </div>
 
-      <h2 className="intro-greet">Hello! I am cookie</h2>
-      <h2 className="intro-title">The AI Powered Product Manager</h2>
-      <h2 className="click-me">
-        They say i am the worlds best product manager but i am still learning
-        and will help you learn also :) Click on me to know more!
+      <h2 className="intro-greet">
+        Hello! I’m <span className="color-primary">Biscuit.</span>
+      </h2>
+      <h2 className="intro-title">
+        The Ultimate AI bot Companion for Product folks.
       </h2>
 
       <div
-        className="one"
+        className="one box-shadow bot-cards"
         onClick={() => {
           history.push("home/news");
         }}
       >
         <h1>
-          Play the latest episode of Project Managers Diary (Podcast) Cookie
-          Talk (News)
+          Play the latest episode of <br /> Project Managers Diary (Podcast)
+          Biscuit Talk (News)
         </h1>
       </div>
 
       <div
-        className="two"
+        className="two box-shadow bot-cards"
         onClick={() => {
           history.push("home/casestudy");
         }}
       >
-        <h1>Can you play project manager Stories?</h1>
+        <h1>
+          Can you play <br />
+          project manager Stories?
+        </h1>
       </div>
-      <div className="three">
+      <div className="seven  box-shadow bot-cards">
         <a href="https://jemi.so/_biscuit" target="_blank">
-          <h1>Cookie tell me about yourself</h1>
+          <h1>Biscuit tell me about yourself</h1>
         </a>
       </div>
 
       <div
-        className="four"
+        className="four box-shadow bot-cards"
         onClick={() => {
           history.push("home/feed");
         }}
       >
-        <h1>Teach me how to do market research</h1>
+        <h1>
+          Teach me how to do <br />
+          market research
+        </h1>
       </div>
       <div
-        className="five"
+        className="five box-shadow bot-cards"
         onClick={() => {
           history.push("home/challenge");
         }}
       >
-        <h1>Cookie! give me a challenge</h1>
+        <h1>
+          Biscuit! <br /> give me a challenge
+        </h1>
       </div>
       <div
-        className="six"
+        className="six box-shadow bot-cards"
         onClick={() => {
           history.push("home/testing");
         }}
       >
-        <h1>Can you test this product and share feedback</h1>
+        <h1>
+          Can you test this product <br /> and share feedback
+        </h1>
       </div>
       <div
-        className="seven"
+        className="three box-shadow bot-cards"
         onClick={() => {
           history.push("home/courses");
         }}
       >
-        <h1>Cookie I want to learn some product management</h1>
+        <h1>
+          Biscuit I want to learn some <br /> product management
+        </h1>
       </div>
       <div
-        className="eight"
+        className="eight box-shadow bot-cards"
         onClick={() => {
           history.push("home/feed");
         }}
       >
-        <h1>Show me everything in store from you</h1>
+        <h1>
+          Show me everything <br /> in store from you
+        </h1>
       </div>
       <div
-        className="nine"
+        className="nine box-shadow bot-cards"
         onClick={() => {
           history.push("home/testing");
         }}
       >
-        <h1>Teach me how to do A/B Testing</h1>
+        <h1>
+          Teach me how to do <br />
+          A/B Testing
+        </h1>
       </div>
       <div
-        className="ten"
+        className="ten box-shadow bot-cards"
         onClick={() => {
           history.push("home/community");
         }}
       >
-        <h1>Top mentors for Product Management</h1>
+        <h1>
+          Top mentors for <br /> Product Management
+        </h1>
       </div>
       <div
-        className="eleven"
+        className="eleven box-shadow bot-cards"
         onClick={() => {
           history.push("home/challenges");
         }}
       >
-        <h1>Give me some real world problem</h1>
+        <h1>
+          Give me some <br />
+          real world problem
+        </h1>
       </div>
       <div
-        className="twelve"
+        className="twelve box-shadow bot-cards"
         onClick={() => {
           history.push("home/community");
         }}
       >
-        <h1>Connect with community of women Product Managers</h1>
+        <h1>
+          Connect with community of <br /> women Product Managers
+        </h1>
       </div>
     </div>
   );
