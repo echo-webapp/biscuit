@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/biscuit/static/css/main.a9e969e3.css",
-    "main.js": "/biscuit/static/js/main.a1a2b654.js",
+    "main.css": "/biscuit/static/css/main.c3a71ebc.css",
+    "main.js": "/biscuit/static/js/main.7d3a9f0d.js",
+    "static/media/Coming.gif": "/biscuit/static/media/Coming.0f9aa1ca547bce4f3087.gif",
+    "static/media/PriceFrame.png": "/biscuit/static/media/PriceFrame.4dd6368fb3c100f10f2d.png",
     "static/media/Rectangle20.png": "/biscuit/static/media/Rectangle20.346e9a007a74f5bfe3a8.png",
     "static/media/Rectangle24.png": "/biscuit/static/media/Rectangle24.cb766d6734dedfb1cf65.png",
     "static/media/image1.png": "/biscuit/static/media/image1.633dd7ec7ce3b53a7587.png",
@@ -30,11 +32,11 @@
     "static/media/slick.woff": "/biscuit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/biscuit/index.html",
     "static/media/arrow.svg": "/biscuit/static/media/arrow.168c71dae05625a5511c7ceca82f830c.svg",
-    "main.a9e969e3.css.map": "/biscuit/static/css/main.a9e969e3.css.map",
-    "main.a1a2b654.js.map": "/biscuit/static/js/main.a1a2b654.js.map"
+    "main.c3a71ebc.css.map": "/biscuit/static/css/main.c3a71ebc.css.map",
+    "main.7d3a9f0d.js.map": "/biscuit/static/js/main.7d3a9f0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9e969e3.css",
-    "static/js/main.a1a2b654.js"
+    "static/css/main.c3a71ebc.css",
+    "static/js/main.7d3a9f0d.js"
   ]
 }
