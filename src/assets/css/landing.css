@@ -1,0 +1,185 @@
+
+@font-face {
+  font-family: 'Bebas';
+  src: local('Bebas'), url(../fonts/Bebas-Regular.ttf) format('truetype');
+}
+
+.share {
+  display: block;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.share:hover {
+  cursor: pointer;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve {
+  position: absolute;
+  background-color: #fff;
+  color: #fff;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 1.5em;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, .2);
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, .2);
+  -webkit-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover,
+.eight:hover,
+.nine:hover,
+.ten:hover,
+.eleven:hover,
+.twelve:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-transform: translate(-50%, -65%);
+  transform: translate(-50%, -65%);
+}
+
+.one h1,
+.two h1,
+.three h1,
+.four h1,
+.five h1,
+.six h1,
+.seven h1,
+.eight h1,
+.nine h1,
+.ten h1,
+.eleven h1,
+.twelve h1 {
+  display: none;
+}
+
+.one {
+  background-color: #e01e5a;
+}
+
+.two {
+  background-color: #36C5F1;
+}
+
+.three {
+  background-color: #EBB22F;
+}
+
+.four {
+  background-color: #30B57E;
+}
+
+.five {
+  background-color: #4A154B;
+}
+
+.six {
+  background-color: #000000;
+}
+
+.seven {
+  background-color: #e01e5a;
+}
+
+.eight {
+  background-color: #36C5F1;
+}
+
+.nine {
+  background-color: #EBB22F;
+}
+
+.ten {
+  background-color: #30B57E;
+}
+
+.eleven {
+  background-color: #4A154B;
+}
+
+.twelve {
+  background-color: #000000;
+}
+
+.intro-title {
+  /* width: 600px; */
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-weight: 600;
+  font-family:  Bebas;
+  text-transform: uppercase;
+}
+.intro-greet{
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 140px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family:  Bebas;
+}
+
+.click-me{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family:  Bebas;
+}
