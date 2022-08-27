@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/biscuit/static/css/main.a9e969e3.css",
+    "main.js": "/biscuit/static/js/main.a1a2b654.js",
+    "static/media/Rectangle20.png": "/biscuit/static/media/Rectangle20.346e9a007a74f5bfe3a8.png",
+    "static/media/Rectangle24.png": "/biscuit/static/media/Rectangle24.cb766d6734dedfb1cf65.png",
+    "static/media/image1.png": "/biscuit/static/media/image1.633dd7ec7ce3b53a7587.png",
+    "static/media/Image11.png": "/biscuit/static/media/Image11.9f4e530f314512b3fa1c.png",
+    "static/media/testing1.png": "/biscuit/static/media/testing1.ca99406dd2b811786924.png",
+    "static/media/Rectangle23.png": "/biscuit/static/media/Rectangle23.91d01a0a16a276641d91.png",
+    "static/media/testing5.png": "/biscuit/static/media/testing5.b5a07cb268fe6d07c9b5.png",
+    "static/media/testing4.png": "/biscuit/static/media/testing4.e484b480aa74a0e26628.png",
+    "static/media/Image12.png": "/biscuit/static/media/Image12.c1f233fde487b6df0567.png",
+    "static/media/Image111.png": "/biscuit/static/media/Image111.090dc4bd8f2eb5f9611f.png",
+    "static/media/Rectangle22.png": "/biscuit/static/media/Rectangle22.399918723e0643c01185.png",
+    "static/media/image2.png": "/biscuit/static/media/image2.b0d7634a32186276c91f.png",
+    "static/media/inner-banner.jpg": "/biscuit/static/media/inner-banner.58a51614b4aef21fa082.jpg",
+    "static/media/testing2.png": "/biscuit/static/media/testing2.f0f54208fd746dbceedc.png",
+    "static/media/community2.png": "/biscuit/static/media/community2.e3f9ccb6a36ffbe5c1e1.png",
+    "static/media/testing43.png": "/biscuit/static/media/testing43.fb83f66d6b9b50c643ec.png",
+    "static/media/community3.png": "/biscuit/static/media/community3.3d70eadf7f4781d3f2df.png",
+    "static/media/Image112.png": "/biscuit/static/media/Image112.9b462702046f13ec7a54.png",
+    "static/media/community1.png": "/biscuit/static/media/community1.b3229c1ac806d02e8b32.png",
+    "static/media/Image13.png": "/biscuit/static/media/Image13.b4e6bf6a846c9d62c4d9.png",
+    "static/media/Bebas-Regular.ttf": "/biscuit/static/media/Bebas-Regular.90dabffdfc7cafc45f81.ttf",
+    "static/media/Rectangle19.png": "/biscuit/static/media/Rectangle19.9e54416ab71c85cb5a26.png",
+    "static/media/slick.svg": "/biscuit/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/biscuit/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/biscuit/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/biscuit/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/biscuit/index.html",
+    "static/media/arrow.svg": "/biscuit/static/media/arrow.168c71dae05625a5511c7ceca82f830c.svg",
+    "main.a9e969e3.css.map": "/biscuit/static/css/main.a9e969e3.css.map",
+    "main.a1a2b654.js.map": "/biscuit/static/js/main.a1a2b654.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9e969e3.css",
+    "static/js/main.a1a2b654.js"
+  ]
+}
