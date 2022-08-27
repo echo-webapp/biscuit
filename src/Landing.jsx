@@ -211,7 +211,7 @@ function Landing() {
       <div
         className="one"
         onClick={() => {
-          history.push("home");
+          history.push("home/feed");
         }}
       >
         <h1>

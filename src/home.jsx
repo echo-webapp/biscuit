@@ -6,10 +6,52 @@ import Testing from "./components/testing";
 import Courses from "./components/Courses";
 import Community from "./components/community";
 import InnerPage from "./components/innerpage";
+import { useLocation } from "react-router";
 const Home = () => {
+  const location = useLocation();
   const [selected, setselected] = useState("feed");
   const [header, setHeader] = useState("Let’s build better products.");
   const [display, setdisplay] = useState(null);
+  const [keyword, setKeyword] = useState("feed");
+
+  useEffect(() => {
+    console.log(location.pathname);
+    if (location.pathname === "/home/feed") {
+      setselected("feed");
+      setdisplay(<Feed />);
+      return;
+    }
+    if (location.pathname === "/home/courses") {
+      setselected("courses");
+      setdisplay(<Courses />);
+      return;
+    }
+    if (location.pathname === "/home/challenges") {
+      setselected("challenges");
+      setdisplay(<InnerPage />);
+      return;
+    }
+    if (location.pathname === "/home/casestudy") {
+      setselected("casestudy");
+      setdisplay(<Feed />);
+      return;
+    }
+    if (location.pathname === "/home/news") {
+      setselected("news");
+      setdisplay(<Feed />);
+      return;
+    }
+    if (location.pathname === "/home/testing") {
+      setselected("testing");
+      setdisplay(<Testing />);
+      return;
+    }
+    if (location.pathname === "/home/community") {
+      setselected("community");
+      setdisplay(<Community />);
+      return;
+    }
+  }, [location.pathname]);
 
   useEffect(() => {
     switch (selected) {
@@ -25,7 +67,7 @@ const Home = () => {
       case "casestudy":
         setdisplay(<Feed />);
         break;
-      case "shorts":
+      case "news":
         setdisplay(<Feed />);
         break;
       case "testing":

@@ -1,6 +1,6 @@
 import React from "react";
 import { ProTagnoText } from "../assets/svgs/protagnotext";
-
+import { useHistory } from "react-router-dom";
 const nav_arr = [
   { value: "feed", heading: "Feed" },
   { value: "courses", heading: "Courses" },
@@ -12,6 +12,7 @@ const nav_arr = [
 ];
 
 const Navbar = ({ selected, setselected }) => {
+  const history = useHistory();
   return (
     <div className="flex gap-2">
       {nav_arr.map((item) => {
@@ -22,6 +23,7 @@ const Navbar = ({ selected, setselected }) => {
                 item.value == selected ? "bg-purple" : ""
               } navbar-item px-5 py-3 rounded-lg cursor-pointer flex`}
               onClick={() => {
+                history.push(`/home/${item.value}`);
                 setselected(item.value);
               }}
             >
@@ -38,6 +40,7 @@ const Navbar = ({ selected, setselected }) => {
               item.value == selected ? "bg-purple" : ""
             } navbar-item px-5 py-3 rounded-lg cursor-pointer`}
             onClick={() => {
+              history.push(`/home/${item.value}`);
               setselected(item.value);
             }}
           >
