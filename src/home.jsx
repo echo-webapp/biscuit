@@ -5,13 +5,40 @@ import Feed from "./components/feed";
 import Testing from "./components/testing";
 import Courses from "./components/Courses";
 import Community from "./components/community";
-import { useLocation } from "react-router";
+import { useLocation, useHistory } from "react-router";
 import Price from "./components/Price";
 import Challenges from "./components/challenges";
+import styled from "styled-components";
+export const MainContainer = styled.div`
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 
+  .watch {
+    width: 155px;
+    height: 36px;
+    background: #546fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: ease-in all 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+`;
 const Home = () => {
   const [open, setOpen] = useState(false);
-
+  const history = useHistory();
   const location = useLocation();
   const [selected, setselected] = useState("feed");
   const [header, setHeader] = useState("Let’s build better products.");
@@ -115,9 +142,20 @@ const Home = () => {
         className="flex flex-col mt-12  items-center "
         style={{ width: "1440px" }}
       >
-        <div className="text-2xl text-center text-color font-bold w-full">
-          {header}
-        </div>
+        <MainContainer>
+          <div className="text-2xl text-center text-color font-bold w-full">
+            {header}
+          </div>
+          <div
+            className="watch"
+            onClick={() => {
+              history.push("/");
+            }}
+          >
+            Ask Biscuit
+          </div>
+        </MainContainer>
+
         {/* <div className="mt-12">
           <SearchBar />
         </div> */}

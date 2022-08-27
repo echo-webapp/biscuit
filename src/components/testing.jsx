@@ -48,7 +48,7 @@ const Feed = ({ setOpen }) => {
       {testing_arr.map((item) => {
         return (
           <div
-            className="flex flex-col p-4 bg-white rounded-lg relative w-76"
+            className="flex flex-col p-4 bg-white rounded-lg relative w-76 cardHoverTransition cardHover"
             onClick={() => {
               setOpen(true);
             }}
