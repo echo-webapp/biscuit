@@ -7,7 +7,9 @@ import Courses from "./components/Courses";
 import Community from "./components/community";
 import InnerPage from "./components/innerpage";
 import { useLocation } from "react-router";
+import Price from "./components/Price";
 const Home = () => {
+  const [open, setOpen] = useState(false);
   const location = useLocation();
   const [selected, setselected] = useState("feed");
   const [header, setHeader] = useState("Let’s build better products.");
@@ -105,21 +107,24 @@ const Home = () => {
   }, [selected]);
 
   return (
-    <div
-      className="flex flex-col mt-12  items-center "
-      style={{ width: "1440px" }}
-    >
-      <div className="text-2xl text-center text-color font-bold w-full">
-        {header}
+    <>
+      {open && <Price open={open} setOpen={setOpen} />}
+      <div
+        className="flex flex-col mt-12  items-center "
+        style={{ width: "1440px" }}
+      >
+        <div className="text-2xl text-center text-color font-bold w-full">
+          {header}
+        </div>
+        <div className="mt-12">
+          <SearchBar />
+        </div>
+        <div className="mt-12">
+          <Navbar selected={selected} setselected={setselected} />
+        </div>
+        {display}
       </div>
-      <div className="mt-12">
-        <SearchBar />
-      </div>
-      <div className="mt-12">
-        <Navbar selected={selected} setselected={setselected} />
-      </div>
-      {display}
-    </div>
+    </>
   );
 };
 
