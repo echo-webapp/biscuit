@@ -8,8 +8,9 @@ import Community from "./components/community";
 import InnerPage from "./components/innerpage";
 import { useLocation } from "react-router";
 import Price from "./components/Price";
+import Challenges from "./components/challenges";
 const Home = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const location = useLocation();
   const [selected, setselected] = useState("feed");
   const [header, setHeader] = useState("Let’s build better products.");
@@ -30,7 +31,7 @@ const Home = () => {
     }
     if (location.pathname === "/home/challenges") {
       setselected("challenges");
-      setdisplay(<InnerPage />);
+      setdisplay(<Challenges />);
       return;
     }
     if (location.pathname === "/home/casestudy") {
@@ -64,7 +65,7 @@ const Home = () => {
         setdisplay(<Courses />);
         break;
       case "challenges":
-        setdisplay(<InnerPage />);
+        setdisplay(<Challenges />);
         break;
       case "casestudy":
         setdisplay(<Feed />);

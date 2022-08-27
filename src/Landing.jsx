@@ -211,7 +211,7 @@ function Landing() {
       <div
         className="one"
         onClick={() => {
-          history.push("home/feed");
+          history.push("home/news");
         }}
       >
         <h1>
@@ -223,23 +223,21 @@ function Landing() {
       <div
         className="two"
         onClick={() => {
-          history.push("home");
+          history.push("home/casestudy");
         }}
       >
-        <h1>Can you play project manager Stories</h1>
+        <h1>Can you play project manager Stories?</h1>
       </div>
-      <div
-        className="three"
-        onClick={() => {
-          history.push("home");
-        }}
-      >
-        <h1>Cookie tell me about yourself</h1>
+      <div className="three">
+        <a href="https://jemi.so/_biscuit" target="_blank">
+          <h1>Cookie tell me about yourself</h1>
+        </a>
       </div>
+
       <div
         className="four"
         onClick={() => {
-          history.push("home");
+          history.push("home/feed");
         }}
       >
         <h1>Teach me how to do market research</h1>
@@ -247,7 +245,7 @@ function Landing() {
       <div
         className="five"
         onClick={() => {
-          history.push("home");
+          history.push("home/challenge");
         }}
       >
         <h1>Cookie! give me a challenge</h1>
@@ -255,7 +253,7 @@ function Landing() {
       <div
         className="six"
         onClick={() => {
-          history.push("home");
+          history.push("home/testing");
         }}
       >
         <h1>Can you test this product and share feedback</h1>
@@ -263,17 +261,15 @@ function Landing() {
       <div
         className="seven"
         onClick={() => {
-          history.push("home");
+          history.push("home/courses");
         }}
       >
-        <h1>
-          Cookie can you share a mood board of home screens with green theme
-        </h1>
+        <h1>Cookie I want to learn some product management</h1>
       </div>
       <div
         className="eight"
         onClick={() => {
-          history.push("home");
+          history.push("home/feed");
         }}
       >
         <h1>Show me everything in store from you</h1>
@@ -281,7 +277,7 @@ function Landing() {
       <div
         className="nine"
         onClick={() => {
-          history.push("home");
+          history.push("home/testing");
         }}
       >
         <h1>Teach me how to do A/B Testing</h1>
@@ -289,26 +285,26 @@ function Landing() {
       <div
         className="ten"
         onClick={() => {
-          history.push("home");
+          history.push("home/community");
         }}
       >
-        <h1>How to become a product manager in the jewellery segment?</h1>
+        <h1>Top mentors for Product Management</h1>
       </div>
       <div
         className="eleven"
         onClick={() => {
-          history.push("home");
+          history.push("home/challenges");
         }}
       >
-        <h1>Are you the dalle for product managers</h1>
+        <h1>Give me some real world problem</h1>
       </div>
       <div
         className="twelve"
         onClick={() => {
-          history.push("home");
+          history.push("home/community");
         }}
       >
-        <h1>Connect me with a product manager mentor in the footwear space</h1>
+        <h1>Connect with community of women Product Managers</h1>
       </div>
     </div>
   );
