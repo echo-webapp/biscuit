@@ -5,12 +5,13 @@ import Feed from "./components/feed";
 import Testing from "./components/testing";
 import Courses from "./components/Courses";
 import Community from "./components/community";
-import InnerPage from "./components/innerpage";
 import { useLocation } from "react-router";
 import Price from "./components/Price";
 import Challenges from "./components/challenges";
+
 const Home = () => {
   const [open, setOpen] = useState(true);
+
   const location = useLocation();
   const [selected, setselected] = useState("feed");
   const [header, setHeader] = useState("Let’s build better products.");
