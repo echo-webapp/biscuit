@@ -1,13 +1,9 @@
 import React from "react";
 import { Eye } from "../assets/svgs/eye";
-import { Share } from "../assets/svgs/share";
-import { Bookmark } from "../assets/svgs/bookmark";
 import { ProTag } from "../assets/svgs/protag";
 import image1 from "../assets/images/image1.png";
 import image2 from "../assets/images/image2.png";
 import pinterest from "../assets/images/pinterest.png";
-import imageW from "../assets/images/W.png";
-import shopify from "../assets/images/shopify.png";
 import telegram from "../assets/images/telegram.png";
 import MiroSoft from "../assets/images/miro.png";
 import Netflix from "../assets/images/netflix.png";
@@ -19,7 +15,6 @@ const MainContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
-  width: 84%;
   align-items: flex-start;
 `;
 const rewarded_arr = [
@@ -103,7 +98,7 @@ const Challenges = () => {
   } else
     return (
       <>
-        <>
+        <div>
           <div
             className=" font-semibold  gap-8 my-10 flex-wrap w-5/6"
             style={{}}
@@ -192,8 +187,8 @@ const Challenges = () => {
               );
             })}
           </MainContainer>
-        </>
-        <>
+        </div>
+        <div className="ml-56">
           <div
             className=" font-semibold  gap-8 my-10 flex-wrap w-5/6"
             style={{}}
@@ -308,7 +303,7 @@ const Challenges = () => {
               );
             })}
           </MainContainer>
-        </>
+        </div>
       </>
     );
 };

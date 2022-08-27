@@ -14,6 +14,7 @@ const MainContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow-x: hidden;
 `;
 const SubContainer = styled.div`
   position: absolute;

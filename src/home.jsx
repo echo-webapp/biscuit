@@ -60,7 +60,7 @@ const Home = () => {
   useEffect(() => {
     switch (selected) {
       case "feed":
-        setdisplay(<Feed />);
+        setdisplay(<Feed setOpen={setOpen} />);
         break;
       case "courses":
         setdisplay(<Courses />);
@@ -69,13 +69,13 @@ const Home = () => {
         setdisplay(<Challenges />);
         break;
       case "casestudy":
-        setdisplay(<Feed />);
+        setdisplay(<Feed setOpen={setOpen} />);
         break;
       case "news":
-        setdisplay(<Feed />);
+        setdisplay(<Feed setOpen={setOpen} />);
         break;
       case "testing":
-        setdisplay(<Testing />);
+        setdisplay(<Testing setOpen={setOpen} />);
         break;
       case "community":
         setdisplay(<Community />);

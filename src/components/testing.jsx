@@ -42,12 +42,17 @@ const testing_arr = [
   },
 ];
 
-const Feed = () => {
+const Feed = ({ setOpen }) => {
   return (
     <div className="flex justify-center gap-8 my-10 flex-wrap w-5/6">
       {testing_arr.map((item) => {
         return (
-          <div className="flex flex-col p-4 bg-white rounded-lg relative w-76">
+          <div
+            className="flex flex-col p-4 bg-white rounded-lg relative w-76"
+            onClick={() => {
+              setOpen(true);
+            }}
+          >
             <div className="w-72 rounded-lg">
               <img
                 src={item.image}
