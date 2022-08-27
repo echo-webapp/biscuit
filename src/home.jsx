@@ -16,8 +16,8 @@ export const MainContainer = styled.div`
   justify-content: center;
 
   .watch {
-    width: 155px;
-    height: 36px;
+    width: 278px;
+    height: 52px;
     background: #546fff;
     border-radius: 8px;
     display: flex;
@@ -26,7 +26,7 @@ export const MainContainer = styled.div`
     justify-content: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
     cursor: pointer;
     transition: ease-in all 0.2s;
@@ -143,9 +143,6 @@ const Home = () => {
         style={{ width: "1440px" }}
       >
         <MainContainer>
-          <div className="text-2xl text-center text-color font-bold w-full">
-            {header}
-          </div>
           <div
             className="watch"
             onClick={() => {
@@ -161,6 +158,12 @@ const Home = () => {
         </div> */}
         <div className="mt-12">
           <Navbar selected={selected} setselected={setselected} />
+        </div>
+        <div
+          className="text-2xl text-center text-color font-bold w-full"
+          style={{ marginTop: "48px" }}
+        >
+          {header}
         </div>
         {display}
       </div>
