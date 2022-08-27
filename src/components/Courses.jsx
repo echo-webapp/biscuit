@@ -10,7 +10,7 @@ import image11 from "../assets/images/Image111.png";
 import image22 from "../assets/images/Image112.png";
 import Slider from "react-slick";
 import styled from "styled-components";
-import Clock from "./../assets/svgs/Clock";
+import Clock from "./../assets/svgs/clock1";
 import Rec1 from "../assets/images/Rectangle19.png";
 import Rec2 from "../assets/images/Rectangle20.png";
 import Rec3 from "../assets/images/Rectangle22.png";
